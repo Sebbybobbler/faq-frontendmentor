@@ -1,0 +1,98 @@
+@media screen(max-width: 375px){
+
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf)
+}
+
+*{
+    border:1px solid red;
+}
+
+html{
+    font-family: WorkSans,sans-serif;
+}
+
+header{
+    width:100vw;   
+}
+
+header img{
+    width:100vw;
+}
+
+body{
+    margin-top:0;
+    display:flex;
+    flex-direction:column;
+    background-color: hsl(275, 100%, 97%);
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.menu--faq{
+    display:flexbox;
+    flex-direction:column;
+    background-color: white;
+    align-items: center;
+    width:50vw;
+    padding: 3vw 3vw;
+
+}
+
+.menu--faq-title{
+    display:flex;
+    align-self:flex-start;
+}
+.menu--faq h2{
+    display:flex;
+    justify-self:center;
+    align-self:center;
+}
+
+.menu--faq-dropdown-open{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content: center;
+}
+
+.menu--faq-dropdown-closed{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu--faq-dropdown-open,
+.menu--faq-dropdown-closed {
+    width:50vw;
+}
+
+
+
+.menu--faq-dropdown-open-heading{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    align-self:center;
+
+}
+
+
+.menu--faq-plusbutton{
+    display:inline-flex;
+    justify-self: flex-end;
+    
+} 
+
+p{
+    font-size:16px;
+    font-family:WorkSans;
+    color:hsl(292, 16%, 49%);   
+}
